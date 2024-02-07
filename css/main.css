@@ -1,0 +1,135 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container {
+    align-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.logo{
+    width: 150px;
+    background-color: white;
+    size: 100px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+.main-nav{
+    width: 600px;
+    height: 25px;
+}
+
+.main-nav > .nav-link {
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-right: 18px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials > .social-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 18px;*
+}
+
+main.container {
+    margin-left: 90px;
+}
+
+.left-text {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.arrow-left {
+    margin-right: 10px;
+    width: 50px;
+    display: flex;
+}
+
+.arrow-left:hover {
+    cursor: grab;
+}
+
+.left-text > p {
+    font-size: 20px;
+}
+
+.left-text > h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.left-text > button {
+    margin-top: 40px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.right-image {
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    cursor: grab;
+}
+
+.picture {
+    width: 700px;
+    height: auto;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.arrow-right {
+    margin-right: 10px;
+    width: 50px;
+    display: flex
+}
+
+.arrow-right:hover {
+    cursor: grab;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+   background-color: white;
+}
+
+.footer-container > button {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container > button > img {
+    width: 10px;
+}
