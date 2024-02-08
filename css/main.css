@@ -12,55 +12,57 @@ body * {
     align-items: center;
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-top: 1.25rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
 .logo{
-    width: 150px;
+    width: 9rem;
     background-color: white;
-    size: 100px;
+    size: 9rem;
     flex-shrink: 0;
-    margin-left: 100px;
+    margin-left: 6rem;
 }
 
 .main-nav{
-    width: 600px;
-    height: 25px;
+    width: 37.5rem;
+    height: 1.5rem;
 }
 
 .main-nav > .nav-link {
-    font-size: 25px;
+    font-size: 1.5rem;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    margin-right: 18px;
+    margin-right: 1rem;
+    cursor: grab;
 }
 
 .socials {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .socials > .social-link {
-    font-size: 20px;
+    font-size: 1.25rem;;
     text-decoration: none;
     color: black;
-    margin-right: 18px;*
+    margin-right: 18px;
+    cursor: grab;
 }
 
 main.container {
-    margin-left: 90px;
+    margin-left: 5.6rem;
 }
 
 .left-text {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .arrow-left {
-    margin-right: 10px;
-    width: 50px;
+    margin-right: 1rem;
+    width: 3rem;
     display: flex;
 }
 
@@ -69,19 +71,19 @@ main.container {
 }
 
 .left-text > p {
-    font-size: 20px;
+    font-size: 1.25rem;;
 }
 
 .left-text > h1 {
-    font-size: 60px;
+    font-size: 4rem;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .left-text > button {
-    margin-top: 40px;
-    padding: 15px 25px;
-    border-radius: 10px;
+    margin-top: 2.5rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1rem;
     font-weight: bold;
 }
 
@@ -95,15 +97,15 @@ button:hover {
 }
 
 .picture {
-    width: 700px;
+    width: 44rem;
     height: auto;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 6rem;
 }
 
 .arrow-right {
     margin-right: 10px;
-    width: 50px;
+    width: 3rem;
     display: flex
 }
 
@@ -115,21 +117,28 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 50px;
+    height: 3rem;
    background-color: white;
 }
 
 .footer-container > button {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.06rem solid black;
+     border: none;
 }
 
 .footer-container > button > img {
-    width: 10px;
+    width: 1rem;
+}
+
+
+button:hover {
+    border: 0.06rem solid black;
 }
