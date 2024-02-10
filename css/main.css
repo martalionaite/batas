@@ -20,7 +20,6 @@ body * {
 .logo{
     width: 9rem;
     background-color: white;
-    size: 9rem;
     flex-shrink: 0;
     margin-left: 6rem;
 }
